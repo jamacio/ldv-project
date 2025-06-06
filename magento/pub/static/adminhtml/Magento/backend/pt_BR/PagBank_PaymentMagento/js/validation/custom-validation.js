@@ -1,0 +1,1 @@
+/app/app/code/PagBank/PaymentMagento/view/base/web/js/validation/custom-validation.js

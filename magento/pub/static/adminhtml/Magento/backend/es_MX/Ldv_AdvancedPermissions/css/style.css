@@ -1,0 +1,7 @@
+.config-nav-block.ldv-logo div::before {
+    content: '';
+    background-image: url('../images/ldv-logo.ico');
+    background-size: auto 18px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
