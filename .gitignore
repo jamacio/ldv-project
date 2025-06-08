@@ -85,3 +85,4 @@ atlassian*
 magento/pub/*
 magento/vendor/*
 magento/generated/*
+magento/var/*
