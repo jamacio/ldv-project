@@ -203,40 +203,4 @@ class OrderExtension extends \Magento\Framework\Api\AbstractSimpleObject impleme
         $this->setData('additional_itemized_taxes', $additionalItemizedTaxes);
         return $this;
     }
-
-    /**
-     * @return float|null
-     */
-    public function getPagbankInterestAmount()
-    {
-        return $this->_get('pagbank_interest_amount');
-    }
-
-    /**
-     * @param float $pagbankInterestAmount
-     * @return $this
-     */
-    public function setPagbankInterestAmount($pagbankInterestAmount)
-    {
-        $this->setData('pagbank_interest_amount', $pagbankInterestAmount);
-        return $this;
-    }
-
-    /**
-     * @return float|null
-     */
-    public function getBasePagbankInterestAmount()
-    {
-        return $this->_get('base_pagbank_interest_amount');
-    }
-
-    /**
-     * @param float $basePagbankInterestAmount
-     * @return $this
-     */
-    public function setBasePagbankInterestAmount($basePagbankInterestAmount)
-    {
-        $this->setData('base_pagbank_interest_amount', $basePagbankInterestAmount);
-        return $this;
-    }
 }

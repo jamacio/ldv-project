@@ -39,4 +39,13 @@ class Interceptor extends \Magento\Framework\Indexer\Action\Dummy implements \Ma
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'executeRow');
         return $pluginInfo ? $this->___callPlugins('executeRow', func_get_args(), $pluginInfo) : parent::executeRow($id);
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function execute($ids)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'execute');
+        return $pluginInfo ? $this->___callPlugins('execute', func_get_args(), $pluginInfo) : parent::execute($ids);
+    }
 }

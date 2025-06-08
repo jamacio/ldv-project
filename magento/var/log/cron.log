@@ -256,3 +256,402 @@ Stack trace:
 [2025-06-06T21:51:14.916159+00:00] main.INFO: Cron Job inventory_in_store_pickup_sales_send_order_notified_emails is successfully finished. Statistics: {"sum":0.00019288063049316,"count":1,"realmem":0,"emalloc":1072,"realmem_start":208142336,"emalloc_start":197428624} [] []
 [2025-06-06T21:51:14.928342+00:00] main.INFO: Cron Job bulk_cleanup is run [] []
 [2025-06-06T21:51:14.928859+00:00] main.INFO: Cron Job bulk_cleanup is successfully finished. Statistics: {"sum":0.00049209594726562,"count":1,"realmem":0,"emalloc":2360,"realmem_start":208142336,"emalloc_start":197434864} [] []
+
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+Autoload error: Vendor autoload is not found. Please run 'composer install' under application root directory.
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 8942240 bytes) in /app/vendor/colinmollenhour/cache-backend-redis/Cm/Cache/Backend/Redis.php on line 1339
+
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+[2025-06-08T13:38:02.726857+00:00] main.INFO: 0 cron jobs were cleaned [] []
+[2025-06-08T13:38:02.738255+00:00] main.INFO: 13 cron jobs were cleaned [] []
+[2025-06-08T13:38:03.329132+00:00] main.INFO: 3 cron jobs were cleaned [] []
+[2025-06-08T13:38:03.414213+00:00] main.INFO: 49 cron jobs were cleaned [] []
+[2025-06-08T13:38:03.546382+00:00] main.INFO: 162 cron jobs were cleaned [] []
+[2025-06-08T13:38:03.551169+00:00] main.INFO: 2 cron jobs were cleaned [] []
+[2025-06-08T13:38:03.646649+00:00] main.INFO: Cron Job indexer_reindex_all_invalid is run [] []
+[2025-06-08T13:38:03.698649+00:00] main.INFO: Cron Job indexer_reindex_all_invalid is successfully finished. Statistics: {"sum":0.052008152008057,"count":1,"realmem":2097152,"emalloc":2133536,"realmem_start":88604672,"emalloc_start":85321192} [] []
+[2025-06-08T13:38:03.729101+00:00] main.INFO: Cron Job indexer_update_all_views is run [] []
+[2025-06-08T13:38:03.878773+00:00] main.INFO: Cron Job submit_payment_services_order_production_feed is run [] []
+[2025-06-08T13:38:03.881002+00:00] main.INFO: Cron Job submit_payment_services_order_production_feed is successfully finished. Statistics: {"sum":0.0022649765014648,"count":1,"realmem":0,"emalloc":104048,"realmem_start":88604672,"emalloc_start":84933712} [] []
+[2025-06-08T13:38:03.897999+00:00] main.INFO: Cron Job submit_payment_services_order_sandbox_feed is run [] []
+[2025-06-08T13:38:03.898222+00:00] main.INFO: Cron Job submit_payment_services_order_sandbox_feed is successfully finished. Statistics: {"sum":0.00021982192993164,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85038536} [] []
+[2025-06-08T13:38:03.913488+00:00] main.INFO: Cron Job submit_payment_services_order_status_production_feed is run [] []
+[2025-06-08T13:38:03.913780+00:00] main.INFO: Cron Job submit_payment_services_order_status_production_feed is successfully finished. Statistics: {"sum":0.00027799606323242,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85040048} [] []
+[2025-06-08T13:38:03.928173+00:00] main.INFO: Cron Job submit_payment_services_order_status_sandbox_feed is run [] []
+[2025-06-08T13:38:03.928472+00:00] main.INFO: Cron Job submit_payment_services_order_status_sandbox_feed is successfully finished. Statistics: {"sum":0.00028610229492188,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85041448} [] []
+[2025-06-08T13:38:03.942752+00:00] main.INFO: Cron Job submit_payment_services_store_production_feed is run [] []
+[2025-06-08T13:38:03.942995+00:00] main.INFO: Cron Job submit_payment_services_store_production_feed is successfully finished. Statistics: {"sum":0.00025606155395508,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85042960} [] []
+[2025-06-08T13:38:03.958284+00:00] main.INFO: Cron Job submit_payment_services_store_sandbox_feed is run [] []
+[2025-06-08T13:38:03.958610+00:00] main.INFO: Cron Job submit_payment_services_store_sandbox_feed is successfully finished. Statistics: {"sum":0.0003359317779541,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85044360} [] []
+[2025-06-08T13:38:04.007207+00:00] main.INFO: Cron Job consumers_runner is run [] []
+[2025-06-08T13:38:04.024681+00:00] main.ERROR: Cron Job consumers_runner has an error: NOT_FOUND - no queue 'saveConfig' in vhost '/'. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":92798976,"emalloc_start":91255744} [] []
+[2025-06-08T13:38:04.025424+00:00] main.CRITICAL: PhpAmqpLib\Exception\AMQPProtocolChannelException: NOT_FOUND - no queue 'saveConfig' in vhost '/' in /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php:224
+Stack trace:
+#0 [internal function]: PhpAmqpLib\Channel\AMQPChannel->channel_close(Object(PhpAmqpLib\Wire\AMQPReader))
+#1 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(217): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader))
+#2 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(374): PhpAmqpLib\Channel\AbstractChannel->dispatch('20,40', '\x01\x94.NOT_FOUND - ...', NULL)
+#3 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1075): PhpAmqpLib\Channel\AbstractChannel->wait(Array, false, 0.0)
+#4 /app/vendor/magento/framework-amqp/Queue.php(86): PhpAmqpLib\Channel\AMQPChannel->basic_get('saveConfig')
+#5 /app/vendor/magento/module-message-queue/Model/CheckIsAvailableMessagesInQueue.php(47): Magento\Framework\Amqp\Queue->dequeue()
+#6 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(207): Magento\MessageQueue\Model\CheckIsAvailableMessagesInQueue->execute('amqp', 'saveConfig')
+#7 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(125): Magento\MessageQueue\Model\Cron\ConsumersRunner->canBeRun(Object(Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem), Array)
+#8 [internal function]: Magento\MessageQueue\Model\Cron\ConsumersRunner->run(Object(Magento\Cron\Model\Schedule))
+#9 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(381): call_user_func_array(Array, Array)
+#10 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(904): Magento\Cron\Observer\ProcessCronQueueObserver->_runJob(1749389880, 1749389883, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#11 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(865): Magento\Cron\Observer\ProcessCronQueueObserver->tryRunJob(1749389880, 1749389883, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#12 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(297): Magento\Cron\Observer\ProcessCronQueueObserver->processPendingJobs('consumers', Array, 1749389883)
+#13 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Cron\Observer\ProcessCronQueueObserver->execute(Object(Magento\Framework\Event\Observer))
+#14 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\Cron\Observer\ProcessCronQueueObserver), Object(Magento\Framework\Event\Observer))
+#15 /app/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#16 /app/generated/code/Magento/Framework/Event/Manager/Proxy.php(105): Magento\Framework\Event\Manager->dispatch('default', Array)
+#17 /app/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch('default')
+#18 /app/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#19 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#20 /app/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#21 /app/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#22 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#23 /app/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#24 /app/vendor/magento/module-cron/Console/Command/CronCommand.php(140): Magento\Framework\App\Cron\Interceptor->launch()
+#25 /app/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#26 /app/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#27 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#28 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#29 /app/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#30 /app/vendor/symfony/console/Application.php(1078): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#31 /app/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#32 /app/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#33 /app/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#34 /app/bin/magento(23): Symfony\Component\Console\Application->run()
+#35 {main}
+
+Next Magento\Framework\MessageQueue\ConnectionLostException: NOT_FOUND - no queue 'saveConfig' in vhost '/' in /app/vendor/magento/framework-amqp/Queue.php:88
+Stack trace:
+#0 /app/vendor/magento/module-message-queue/Model/CheckIsAvailableMessagesInQueue.php(47): Magento\Framework\Amqp\Queue->dequeue()
+#1 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(207): Magento\MessageQueue\Model\CheckIsAvailableMessagesInQueue->execute('amqp', 'saveConfig')
+#2 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(125): Magento\MessageQueue\Model\Cron\ConsumersRunner->canBeRun(Object(Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem), Array)
+#3 [internal function]: Magento\MessageQueue\Model\Cron\ConsumersRunner->run(Object(Magento\Cron\Model\Schedule))
+#4 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(381): call_user_func_array(Array, Array)
+#5 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(904): Magento\Cron\Observer\ProcessCronQueueObserver->_runJob(1749389880, 1749389883, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#6 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(865): Magento\Cron\Observer\ProcessCronQueueObserver->tryRunJob(1749389880, 1749389883, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#7 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(297): Magento\Cron\Observer\ProcessCronQueueObserver->processPendingJobs('consumers', Array, 1749389883)
+#8 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Cron\Observer\ProcessCronQueueObserver->execute(Object(Magento\Framework\Event\Observer))
+#9 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\Cron\Observer\ProcessCronQueueObserver), Object(Magento\Framework\Event\Observer))
+#10 /app/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#11 /app/generated/code/Magento/Framework/Event/Manager/Proxy.php(105): Magento\Framework\Event\Manager->dispatch('default', Array)
+#12 /app/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch('default')
+#13 /app/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#14 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#15 /app/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#16 /app/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#17 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#18 /app/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#19 /app/vendor/magento/module-cron/Console/Command/CronCommand.php(140): Magento\Framework\App\Cron\Interceptor->launch()
+#20 /app/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /app/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#23 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /app/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#25 /app/vendor/symfony/console/Application.php(1078): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#26 /app/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#27 /app/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#28 /app/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#29 /app/bin/magento(23): Symfony\Component\Console\Application->run()
+#30 {main} [] []
+[2025-06-08T13:38:04.468248+00:00] main.INFO: Cron Job indexer_update_all_views is successfully finished. Statistics: {"sum":0.7391471862793,"count":1,"realmem":20971520,"emalloc":21232320,"realmem_start":90701824,"emalloc_start":87459384} [] []
+[2025-06-08T13:38:04.992126+00:00] main.INFO: Cron Job outdated_authentication_failures_cleanup is run [] []
+[2025-06-08T13:38:04.992922+00:00] main.INFO: Cron Job outdated_authentication_failures_cleanup is successfully finished. Statistics: {"sum":0.00081610679626465,"count":1,"realmem":0,"emalloc":2832,"realmem_start":94896128,"emalloc_start":91268808} [] []
+[2025-06-08T13:38:05.004272+00:00] main.INFO: Cron Job catalog_product_outdated_price_values_cleanup is run [] []
+[2025-06-08T13:38:05.004410+00:00] main.INFO: Cron Job catalog_product_outdated_price_values_cleanup is successfully finished. Statistics: {"sum":0.00013399124145508,"count":1,"realmem":0,"emalloc":1072,"realmem_start":94896128,"emalloc_start":91394808} [] []
+[2025-06-08T13:38:05.015097+00:00] main.INFO: Cron Job catalog_product_frontend_actions_flush is run [] []
+[2025-06-08T13:38:05.015924+00:00] main.INFO: Cron Job catalog_product_frontend_actions_flush is successfully finished. Statistics: {"sum":0.0008080005645752,"count":1,"realmem":0,"emalloc":1448,"realmem_start":94896128,"emalloc_start":91422872} [] []
+[2025-06-08T13:38:05.028258+00:00] main.INFO: Cron Job sales_grid_order_async_insert is run [] []
+[2025-06-08T13:38:05.028411+00:00] main.INFO: Cron Job sales_grid_order_async_insert is successfully finished. Statistics: {"sum":0.0001530647277832,"count":1,"realmem":0,"emalloc":1072,"realmem_start":94896128,"emalloc_start":91603776} [] []
+[2025-06-08T13:38:05.038331+00:00] main.INFO: Cron Job sales_grid_order_invoice_async_insert is run [] []
+[2025-06-08T13:38:05.038456+00:00] main.INFO: Cron Job sales_grid_order_invoice_async_insert is successfully finished. Statistics: {"sum":0.0001220703125,"count":1,"realmem":0,"emalloc":1072,"realmem_start":94896128,"emalloc_start":91607944} [] []
+[2025-06-08T13:38:05.053411+00:00] main.INFO: Cron Job sales_grid_order_shipment_async_insert is run [] []
+[2025-06-08T13:38:05.053553+00:00] main.INFO: Cron Job sales_grid_order_shipment_async_insert is successfully finished. Statistics: {"sum":0.00013899803161621,"count":1,"realmem":0,"emalloc":1072,"realmem_start":94896128,"emalloc_start":91611456} [] []
+[2025-06-08T13:38:05.063773+00:00] main.INFO: Cron Job sales_grid_order_creditmemo_async_insert is run [] []
+[2025-06-08T13:38:05.063898+00:00] main.INFO: Cron Job sales_grid_order_creditmemo_async_insert is successfully finished. Statistics: {"sum":0.00012302398681641,"count":1,"realmem":0,"emalloc":1072,"realmem_start":94896128,"emalloc_start":91614968} [] []
+[2025-06-08T13:38:05.102331+00:00] main.INFO: Cron Job sales_send_order_emails is run [] []
+[2025-06-08T13:38:05.102443+00:00] main.INFO: Cron Job sales_send_order_emails is successfully finished. Statistics: {"sum":0.00010585784912109,"count":1,"realmem":0,"emalloc":1120,"realmem_start":96993280,"emalloc_start":94145904} [] []
+[2025-06-08T13:38:05.131829+00:00] main.INFO: Cron Job sales_send_order_invoice_emails is run [] []
+[2025-06-08T13:38:05.131936+00:00] main.INFO: Cron Job sales_send_order_invoice_emails is successfully finished. Statistics: {"sum":0.00010204315185547,"count":1,"realmem":0,"emalloc":1120,"realmem_start":96993280,"emalloc_start":93573272} [] []
+[2025-06-08T13:38:05.145846+00:00] main.INFO: Cron Job sales_send_order_shipment_emails is run [] []
+[2025-06-08T13:38:05.145940+00:00] main.INFO: Cron Job sales_send_order_shipment_emails is successfully finished. Statistics: {"sum":8.702278137207e-5,"count":1,"realmem":0,"emalloc":1120,"realmem_start":96993280,"emalloc_start":94268352} [] []
+[2025-06-08T13:38:05.158401+00:00] main.INFO: Cron Job sales_send_order_creditmemo_emails is run [] []
+[2025-06-08T13:38:05.158511+00:00] main.INFO: Cron Job sales_send_order_creditmemo_emails is successfully finished. Statistics: {"sum":0.0001070499420166,"count":1,"realmem":0,"emalloc":1120,"realmem_start":96993280,"emalloc_start":94845248} [] []
+[2025-06-08T13:38:05.168137+00:00] main.INFO: Cron Job inventory_in_store_pickup_sales_send_order_notified_emails is run [] []
+[2025-06-08T13:38:05.168225+00:00] main.INFO: Cron Job inventory_in_store_pickup_sales_send_order_notified_emails is successfully finished. Statistics: {"sum":8.1062316894531e-5,"count":1,"realmem":0,"emalloc":1120,"realmem_start":96993280,"emalloc_start":94891160} [] []
+[2025-06-08T13:38:05.191908+00:00] main.INFO: Cron Job magento_newrelicreporting_cron is run [] []
+[2025-06-08T13:38:05.192013+00:00] main.INFO: Cron Job magento_newrelicreporting_cron is successfully finished. Statistics: {"sum":0.00010013580322266,"count":1,"realmem":0,"emalloc":1120,"realmem_start":99090432,"emalloc_start":97231456} [] []
+[2025-06-08T13:38:05.201796+00:00] main.INFO: Cron Job bulk_cleanup is run [] []
+[2025-06-08T13:38:05.203166+00:00] main.INFO: Cron Job bulk_cleanup is successfully finished. Statistics: {"sum":0.001345157623291,"count":1,"realmem":0,"emalloc":4304,"realmem_start":99090432,"emalloc_start":97239192} [] []
+Ran jobs by schedule.
+
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+[2025-06-08T13:39:01.489833+00:00] main.INFO: Cron Job outdated_authentication_failures_cleanup is run [] []
+[2025-06-08T13:39:01.490332+00:00] main.INFO: Cron Job outdated_authentication_failures_cleanup is successfully finished. Statistics: {"sum":0.00058698654174805,"count":1,"realmem":0,"emalloc":7808,"realmem_start":88604672,"emalloc_start":84945432} [] []
+[2025-06-08T13:39:01.502216+00:00] main.INFO: Cron Job catalog_product_outdated_price_values_cleanup is run [] []
+[2025-06-08T13:39:01.502331+00:00] main.INFO: Cron Job catalog_product_outdated_price_values_cleanup is successfully finished. Statistics: {"sum":0.00012493133544922,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85067240} [] []
+[2025-06-08T13:39:01.513171+00:00] main.INFO: Cron Job catalog_product_frontend_actions_flush is run [] []
+[2025-06-08T13:39:01.513640+00:00] main.INFO: Cron Job catalog_product_frontend_actions_flush is successfully finished. Statistics: {"sum":0.00045895576477051,"count":1,"realmem":0,"emalloc":1512,"realmem_start":88604672,"emalloc_start":85095304} [] []
+[2025-06-08T13:39:01.538440+00:00] main.INFO: Cron Job sales_grid_order_async_insert is run [] []
+[2025-06-08T13:39:01.538572+00:00] main.INFO: Cron Job sales_grid_order_async_insert is successfully finished. Statistics: {"sum":0.00012898445129395,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85369120} [] []
+[2025-06-08T13:39:01.549596+00:00] main.INFO: Cron Job sales_grid_order_invoice_async_insert is run [] []
+[2025-06-08T13:39:01.549718+00:00] main.INFO: Cron Job sales_grid_order_invoice_async_insert is successfully finished. Statistics: {"sum":0.00012111663818359,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85373288} [] []
+[2025-06-08T13:39:01.559797+00:00] main.INFO: Cron Job sales_grid_order_shipment_async_insert is run [] []
+[2025-06-08T13:39:01.559938+00:00] main.INFO: Cron Job sales_grid_order_shipment_async_insert is successfully finished. Statistics: {"sum":0.00014495849609375,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85376800} [] []
+[2025-06-08T13:39:01.570760+00:00] main.INFO: Cron Job sales_grid_order_creditmemo_async_insert is run [] []
+[2025-06-08T13:39:01.570882+00:00] main.INFO: Cron Job sales_grid_order_creditmemo_async_insert is successfully finished. Statistics: {"sum":0.00011897087097168,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85380312} [] []
+[2025-06-08T13:39:01.598664+00:00] main.INFO: Cron Job sales_send_order_emails is run [] []
+[2025-06-08T13:39:01.598809+00:00] main.INFO: Cron Job sales_send_order_emails is successfully finished. Statistics: {"sum":0.0001380443572998,"count":1,"realmem":0,"emalloc":1072,"realmem_start":90701824,"emalloc_start":88017800} [] []
+[2025-06-08T13:39:01.612667+00:00] main.INFO: Cron Job sales_send_order_invoice_emails is run [] []
+[2025-06-08T13:39:01.612808+00:00] main.INFO: Cron Job sales_send_order_invoice_emails is successfully finished. Statistics: {"sum":0.00013589859008789,"count":1,"realmem":0,"emalloc":1072,"realmem_start":92798976,"emalloc_start":88501768} [] []
+[2025-06-08T13:39:01.626750+00:00] main.INFO: Cron Job sales_send_order_shipment_emails is run [] []
+[2025-06-08T13:39:01.626904+00:00] main.INFO: Cron Job sales_send_order_shipment_emails is successfully finished. Statistics: {"sum":0.0001521110534668,"count":1,"realmem":0,"emalloc":1072,"realmem_start":92798976,"emalloc_start":89024064} [] []
+[2025-06-08T13:39:01.640759+00:00] main.INFO: Cron Job sales_send_order_creditmemo_emails is run [] []
+[2025-06-08T13:39:01.640876+00:00] main.INFO: Cron Job sales_send_order_creditmemo_emails is successfully finished. Statistics: {"sum":0.00011396408081055,"count":1,"realmem":0,"emalloc":1072,"realmem_start":92798976,"emalloc_start":89469616} [] []
+[2025-06-08T13:39:01.652887+00:00] main.INFO: Cron Job inventory_in_store_pickup_sales_send_order_notified_emails is run [] []
+[2025-06-08T13:39:01.653034+00:00] main.INFO: Cron Job inventory_in_store_pickup_sales_send_order_notified_emails is successfully finished. Statistics: {"sum":0.00014400482177734,"count":1,"realmem":0,"emalloc":1072,"realmem_start":92798976,"emalloc_start":89606456} [] []
+[2025-06-08T13:39:01.664052+00:00] main.INFO: Cron Job bulk_cleanup is run [] []
+[2025-06-08T13:39:01.664597+00:00] main.INFO: Cron Job bulk_cleanup is successfully finished. Statistics: {"sum":0.00052094459533691,"count":1,"realmem":0,"emalloc":4304,"realmem_start":92798976,"emalloc_start":89617744} [] []
+Ran jobs by schedule.
+[2025-06-08T13:39:01.792301+00:00] main.INFO: Cron Job indexer_reindex_all_invalid is run [] []
+[2025-06-08T13:39:01.802478+00:00] main.INFO: Cron Job indexer_reindex_all_invalid is successfully finished. Statistics: {"sum":0.010216951370239,"count":1,"realmem":2097152,"emalloc":1492104,"realmem_start":88604672,"emalloc_start":84640176} [] []
+[2025-06-08T13:39:01.811708+00:00] main.INFO: Cron Job indexer_update_all_views is run [] []
+[2025-06-08T13:39:01.866840+00:00] main.INFO: Cron Job consumers_runner is run [] []
+[2025-06-08T13:39:01.868380+00:00] main.INFO: Cron Job indexer_update_all_views is successfully finished. Statistics: {"sum":0.056666135787964,"count":1,"realmem":4194304,"emalloc":6608112,"realmem_start":90701824,"emalloc_start":86134800} [] []
+[2025-06-08T13:39:01.871382+00:00] main.INFO: Cron Job submit_payment_services_order_production_feed is run [] []
+[2025-06-08T13:39:01.872863+00:00] main.INFO: Cron Job submit_payment_services_order_production_feed is successfully finished. Statistics: {"sum":0.0015618801116943,"count":1,"realmem":0,"emalloc":109072,"realmem_start":88604672,"emalloc_start":84918560} [] []
+[2025-06-08T13:39:01.875165+00:00] main.ERROR: Cron Job consumers_runner has an error: NOT_FOUND - no queue 'saveConfig' in vhost '/'. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":88604672,"emalloc_start":85033328} [] []
+[2025-06-08T13:39:01.875516+00:00] main.CRITICAL: PhpAmqpLib\Exception\AMQPProtocolChannelException: NOT_FOUND - no queue 'saveConfig' in vhost '/' in /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php:224
+Stack trace:
+#0 [internal function]: PhpAmqpLib\Channel\AMQPChannel->channel_close(Object(PhpAmqpLib\Wire\AMQPReader))
+#1 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(217): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader))
+#2 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(374): PhpAmqpLib\Channel\AbstractChannel->dispatch('20,40', '\x01\x94.NOT_FOUND - ...', NULL)
+#3 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1075): PhpAmqpLib\Channel\AbstractChannel->wait(Array, false, 0.0)
+#4 /app/vendor/magento/framework-amqp/Queue.php(86): PhpAmqpLib\Channel\AMQPChannel->basic_get('saveConfig')
+#5 /app/vendor/magento/module-message-queue/Model/CheckIsAvailableMessagesInQueue.php(47): Magento\Framework\Amqp\Queue->dequeue()
+#6 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(207): Magento\MessageQueue\Model\CheckIsAvailableMessagesInQueue->execute('amqp', 'saveConfig')
+#7 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(125): Magento\MessageQueue\Model\Cron\ConsumersRunner->canBeRun(Object(Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem), Array)
+#8 [internal function]: Magento\MessageQueue\Model\Cron\ConsumersRunner->run(Object(Magento\Cron\Model\Schedule))
+#9 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(381): call_user_func_array(Array, Array)
+#10 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(904): Magento\Cron\Observer\ProcessCronQueueObserver->_runJob(1749389940, 1749389941, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#11 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(865): Magento\Cron\Observer\ProcessCronQueueObserver->tryRunJob(1749389940, 1749389941, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#12 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(297): Magento\Cron\Observer\ProcessCronQueueObserver->processPendingJobs('consumers', Array, 1749389941)
+#13 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Cron\Observer\ProcessCronQueueObserver->execute(Object(Magento\Framework\Event\Observer))
+#14 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\Cron\Observer\ProcessCronQueueObserver), Object(Magento\Framework\Event\Observer))
+#15 /app/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#16 /app/generated/code/Magento/Framework/Event/Manager/Proxy.php(105): Magento\Framework\Event\Manager->dispatch('default', Array)
+#17 /app/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch('default')
+#18 /app/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#19 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#20 /app/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#21 /app/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#22 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#23 /app/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#24 /app/vendor/magento/module-cron/Console/Command/CronCommand.php(140): Magento\Framework\App\Cron\Interceptor->launch()
+#25 /app/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#26 /app/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#27 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#28 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#29 /app/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#30 /app/vendor/symfony/console/Application.php(1078): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#31 /app/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#32 /app/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#33 /app/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#34 /app/bin/magento(23): Symfony\Component\Console\Application->run()
+#35 {main}
+
+Next Magento\Framework\MessageQueue\ConnectionLostException: NOT_FOUND - no queue 'saveConfig' in vhost '/' in /app/vendor/magento/framework-amqp/Queue.php:88
+Stack trace:
+#0 /app/vendor/magento/module-message-queue/Model/CheckIsAvailableMessagesInQueue.php(47): Magento\Framework\Amqp\Queue->dequeue()
+#1 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(207): Magento\MessageQueue\Model\CheckIsAvailableMessagesInQueue->execute('amqp', 'saveConfig')
+#2 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(125): Magento\MessageQueue\Model\Cron\ConsumersRunner->canBeRun(Object(Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem), Array)
+#3 [internal function]: Magento\MessageQueue\Model\Cron\ConsumersRunner->run(Object(Magento\Cron\Model\Schedule))
+#4 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(381): call_user_func_array(Array, Array)
+#5 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(904): Magento\Cron\Observer\ProcessCronQueueObserver->_runJob(1749389940, 1749389941, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#6 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(865): Magento\Cron\Observer\ProcessCronQueueObserver->tryRunJob(1749389940, 1749389941, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#7 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(297): Magento\Cron\Observer\ProcessCronQueueObserver->processPendingJobs('consumers', Array, 1749389941)
+#8 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Cron\Observer\ProcessCronQueueObserver->execute(Object(Magento\Framework\Event\Observer))
+#9 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\Cron\Observer\ProcessCronQueueObserver), Object(Magento\Framework\Event\Observer))
+#10 /app/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#11 /app/generated/code/Magento/Framework/Event/Manager/Proxy.php(105): Magento\Framework\Event\Manager->dispatch('default', Array)
+#12 /app/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch('default')
+#13 /app/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#14 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#15 /app/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#16 /app/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#17 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#18 /app/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#19 /app/vendor/magento/module-cron/Console/Command/CronCommand.php(140): Magento\Framework\App\Cron\Interceptor->launch()
+#20 /app/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /app/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#23 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /app/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#25 /app/vendor/symfony/console/Application.php(1078): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#26 /app/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#27 /app/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#28 /app/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#29 /app/bin/magento(23): Symfony\Component\Console\Application->run()
+#30 {main} [] []
+[2025-06-08T13:39:01.885015+00:00] main.INFO: Cron Job submit_payment_services_order_sandbox_feed is run [] []
+[2025-06-08T13:39:01.885209+00:00] main.INFO: Cron Job submit_payment_services_order_sandbox_feed is successfully finished. Statistics: {"sum":0.00018906593322754,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85028408} [] []
+[2025-06-08T13:39:01.895619+00:00] main.INFO: Cron Job submit_payment_services_order_status_production_feed is run [] []
+[2025-06-08T13:39:01.895767+00:00] main.INFO: Cron Job submit_payment_services_order_status_production_feed is successfully finished. Statistics: {"sum":0.00014114379882812,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85029920} [] []
+[2025-06-08T13:39:01.907261+00:00] main.INFO: Cron Job submit_payment_services_order_status_sandbox_feed is run [] []
+[2025-06-08T13:39:01.907506+00:00] main.INFO: Cron Job submit_payment_services_order_status_sandbox_feed is successfully finished. Statistics: {"sum":0.0002288818359375,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85031320} [] []
+[2025-06-08T13:39:01.923674+00:00] main.INFO: Cron Job submit_payment_services_store_production_feed is run [] []
+[2025-06-08T13:39:01.924100+00:00] main.INFO: Cron Job submit_payment_services_store_production_feed is successfully finished. Statistics: {"sum":0.00039815902709961,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85032832} [] []
+[2025-06-08T13:39:01.941873+00:00] main.INFO: Cron Job submit_payment_services_store_sandbox_feed is run [] []
+[2025-06-08T13:39:01.942277+00:00] main.INFO: Cron Job submit_payment_services_store_sandbox_feed is successfully finished. Statistics: {"sum":0.00037312507629395,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85034232} [] []
+
+Warning: Failed to set memory limit to 0 bytes (Current memory usage is 2097152 bytes) in Unknown on line 0
+[2025-06-08T13:40:01.957837+00:00] main.INFO: Cron Job outdated_authentication_failures_cleanup is run [] []
+[2025-06-08T13:40:01.958347+00:00] main.INFO: Cron Job outdated_authentication_failures_cleanup is successfully finished. Statistics: {"sum":0.00059890747070312,"count":1,"realmem":0,"emalloc":7808,"realmem_start":88604672,"emalloc_start":84913528} [] []
+[2025-06-08T13:40:01.970520+00:00] main.INFO: Cron Job catalog_product_outdated_price_values_cleanup is run [] []
+[2025-06-08T13:40:01.970654+00:00] main.INFO: Cron Job catalog_product_outdated_price_values_cleanup is successfully finished. Statistics: {"sum":0.00013017654418945,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85035336} [] []
+[2025-06-08T13:40:01.981440+00:00] main.INFO: Cron Job catalog_product_frontend_actions_flush is run [] []
+[2025-06-08T13:40:01.981883+00:00] main.INFO: Cron Job catalog_product_frontend_actions_flush is successfully finished. Statistics: {"sum":0.00043606758117676,"count":1,"realmem":0,"emalloc":1512,"realmem_start":88604672,"emalloc_start":85063400} [] []
+[2025-06-08T13:40:01.991573+00:00] main.INFO: Cron Job catalog_product_attribute_value_synchronize is run [] []
+[2025-06-08T13:40:01.992755+00:00] main.INFO: Cron Job catalog_product_attribute_value_synchronize is successfully finished. Statistics: {"sum":0.0011699199676514,"count":1,"realmem":0,"emalloc":22712,"realmem_start":88604672,"emalloc_start":85114176} [] []
+[2025-06-08T13:40:02.017612+00:00] main.INFO: Cron Job sales_grid_order_async_insert is run [] []
+[2025-06-08T13:40:02.017731+00:00] main.INFO: Cron Job sales_grid_order_async_insert is successfully finished. Statistics: {"sum":0.00011610984802246,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85409216} [] []
+[2025-06-08T13:40:02.027921+00:00] main.INFO: Cron Job sales_grid_order_invoice_async_insert is run [] []
+[2025-06-08T13:40:02.028034+00:00] main.INFO: Cron Job sales_grid_order_invoice_async_insert is successfully finished. Statistics: {"sum":0.00011205673217773,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85413384} [] []
+[2025-06-08T13:40:02.038286+00:00] main.INFO: Cron Job sales_grid_order_shipment_async_insert is run [] []
+[2025-06-08T13:40:02.038403+00:00] main.INFO: Cron Job sales_grid_order_shipment_async_insert is successfully finished. Statistics: {"sum":0.00011491775512695,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85416896} [] []
+[2025-06-08T13:40:02.047916+00:00] main.INFO: Cron Job sales_grid_order_creditmemo_async_insert is run [] []
+[2025-06-08T13:40:02.048034+00:00] main.INFO: Cron Job sales_grid_order_creditmemo_async_insert is successfully finished. Statistics: {"sum":0.00011706352233887,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85420408} [] []
+[2025-06-08T13:40:02.075241+00:00] main.INFO: Cron Job sales_send_order_emails is run [] []
+[2025-06-08T13:40:02.075362+00:00] main.INFO: Cron Job sales_send_order_emails is successfully finished. Statistics: {"sum":0.00012111663818359,"count":1,"realmem":0,"emalloc":1072,"realmem_start":90701824,"emalloc_start":88057896} [] []
+[2025-06-08T13:40:02.089600+00:00] main.INFO: Cron Job sales_send_order_invoice_emails is run [] []
+[2025-06-08T13:40:02.089723+00:00] main.INFO: Cron Job sales_send_order_invoice_emails is successfully finished. Statistics: {"sum":0.00011992454528809,"count":1,"realmem":0,"emalloc":1072,"realmem_start":92798976,"emalloc_start":88607720} [] []
+[2025-06-08T13:40:02.103990+00:00] main.INFO: Cron Job sales_send_order_shipment_emails is run [] []
+[2025-06-08T13:40:02.104116+00:00] main.INFO: Cron Job sales_send_order_shipment_emails is successfully finished. Statistics: {"sum":0.00012493133544922,"count":1,"realmem":0,"emalloc":1072,"realmem_start":92798976,"emalloc_start":89064160} [] []
+[2025-06-08T13:40:02.118303+00:00] main.INFO: Cron Job sales_send_order_creditmemo_emails is run [] []
+[2025-06-08T13:40:02.118432+00:00] main.INFO: Cron Job sales_send_order_creditmemo_emails is successfully finished. Statistics: {"sum":0.00012302398681641,"count":1,"realmem":0,"emalloc":1072,"realmem_start":92798976,"emalloc_start":89616208} [] []
+[2025-06-08T13:40:02.134822+00:00] main.INFO: Cron Job newsletter_send_all is run [] []
+[2025-06-08T13:40:02.148579+00:00] main.INFO: Cron Job newsletter_send_all is successfully finished. Statistics: {"sum":0.013741970062256,"count":1,"realmem":2097152,"emalloc":991520,"realmem_start":92798976,"emalloc_start":90121896} [] []
+[2025-06-08T13:40:02.165498+00:00] main.INFO: Cron Job captcha_delete_expired_images is run [] []
+[2025-06-08T13:40:02.179729+00:00] main.INFO: Cron Job captcha_delete_expired_images is successfully finished. Statistics: {"sum":0.014218091964722,"count":1,"realmem":0,"emalloc":1563904,"realmem_start":94896128,"emalloc_start":91149088} [] []
+[2025-06-08T13:40:02.193063+00:00] main.INFO: Cron Job inventory_in_store_pickup_sales_send_order_notified_emails is run [] []
+[2025-06-08T13:40:02.193196+00:00] main.INFO: Cron Job inventory_in_store_pickup_sales_send_order_notified_emails is successfully finished. Statistics: {"sum":0.00012898445129395,"count":1,"realmem":0,"emalloc":1072,"realmem_start":94896128,"emalloc_start":92787296} [] []
+[2025-06-08T13:40:02.220279+00:00] main.INFO: Cron Job magento_newrelicreporting_cron is run [] []
+[2025-06-08T13:40:02.220421+00:00] main.INFO: Cron Job magento_newrelicreporting_cron is successfully finished. Statistics: {"sum":0.00013494491577148,"count":1,"realmem":0,"emalloc":1072,"realmem_start":96993280,"emalloc_start":94878152} [] []
+[2025-06-08T13:40:02.233992+00:00] main.INFO: Cron Job bulk_cleanup is run [] []
+[2025-06-08T13:40:02.234645+00:00] main.INFO: Cron Job bulk_cleanup is successfully finished. Statistics: {"sum":0.00064682960510254,"count":1,"realmem":0,"emalloc":4304,"realmem_start":96993280,"emalloc_start":94885840} [] []
+[2025-06-08T13:40:02.248398+00:00] main.INFO: Cron Job bulk_mark_incomplete_operations_as_failed is run [] []
+[2025-06-08T13:40:02.249011+00:00] main.INFO: Cron Job bulk_mark_incomplete_operations_as_failed is successfully finished. Statistics: {"sum":0.00059199333190918,"count":1,"realmem":0,"emalloc":1448,"realmem_start":96993280,"emalloc_start":94917304} [] []
+[2025-06-08T13:40:02.251199+00:00] main.INFO: Cron Job indexer_reindex_all_invalid is run [] []
+Ran jobs by schedule.
+[2025-06-08T13:40:02.265583+00:00] main.INFO: Cron Job indexer_reindex_all_invalid is successfully finished. Statistics: {"sum":0.014485836029053,"count":1,"realmem":2097152,"emalloc":1492104,"realmem_start":88604672,"emalloc_start":84645832} [] []
+[2025-06-08T13:40:02.278481+00:00] main.INFO: Cron Job indexer_update_all_views is run [] []
+[2025-06-08T13:40:02.312050+00:00] main.INFO: Cron Job consumers_runner is run [] []
+[2025-06-08T13:40:02.319103+00:00] main.ERROR: Cron Job consumers_runner has an error: NOT_FOUND - no queue 'saveConfig' in vhost '/'. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":88604672,"emalloc_start":85032152} [] []
+[2025-06-08T13:40:02.319497+00:00] main.CRITICAL: PhpAmqpLib\Exception\AMQPProtocolChannelException: NOT_FOUND - no queue 'saveConfig' in vhost '/' in /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php:224
+Stack trace:
+#0 [internal function]: PhpAmqpLib\Channel\AMQPChannel->channel_close(Object(PhpAmqpLib\Wire\AMQPReader))
+#1 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(217): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader))
+#2 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(374): PhpAmqpLib\Channel\AbstractChannel->dispatch('20,40', '\x01\x94.NOT_FOUND - ...', NULL)
+#3 /app/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1075): PhpAmqpLib\Channel\AbstractChannel->wait(Array, false, 0.0)
+#4 /app/vendor/magento/framework-amqp/Queue.php(86): PhpAmqpLib\Channel\AMQPChannel->basic_get('saveConfig')
+#5 /app/vendor/magento/module-message-queue/Model/CheckIsAvailableMessagesInQueue.php(47): Magento\Framework\Amqp\Queue->dequeue()
+#6 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(207): Magento\MessageQueue\Model\CheckIsAvailableMessagesInQueue->execute('amqp', 'saveConfig')
+#7 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(125): Magento\MessageQueue\Model\Cron\ConsumersRunner->canBeRun(Object(Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem), Array)
+#8 [internal function]: Magento\MessageQueue\Model\Cron\ConsumersRunner->run(Object(Magento\Cron\Model\Schedule))
+#9 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(381): call_user_func_array(Array, Array)
+#10 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(904): Magento\Cron\Observer\ProcessCronQueueObserver->_runJob(1749390000, 1749390002, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#11 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(865): Magento\Cron\Observer\ProcessCronQueueObserver->tryRunJob(1749390000, 1749390002, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#12 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(297): Magento\Cron\Observer\ProcessCronQueueObserver->processPendingJobs('consumers', Array, 1749390002)
+#13 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Cron\Observer\ProcessCronQueueObserver->execute(Object(Magento\Framework\Event\Observer))
+#14 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\Cron\Observer\ProcessCronQueueObserver), Object(Magento\Framework\Event\Observer))
+#15 /app/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#16 /app/generated/code/Magento/Framework/Event/Manager/Proxy.php(105): Magento\Framework\Event\Manager->dispatch('default', Array)
+#17 /app/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch('default')
+#18 /app/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#19 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#20 /app/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#21 /app/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#22 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#23 /app/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#24 /app/vendor/magento/module-cron/Console/Command/CronCommand.php(140): Magento\Framework\App\Cron\Interceptor->launch()
+#25 /app/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#26 /app/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#27 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#28 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#29 /app/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#30 /app/vendor/symfony/console/Application.php(1078): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#31 /app/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#32 /app/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#33 /app/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#34 /app/bin/magento(23): Symfony\Component\Console\Application->run()
+#35 {main}
+
+Next Magento\Framework\MessageQueue\ConnectionLostException: NOT_FOUND - no queue 'saveConfig' in vhost '/' in /app/vendor/magento/framework-amqp/Queue.php:88
+Stack trace:
+#0 /app/vendor/magento/module-message-queue/Model/CheckIsAvailableMessagesInQueue.php(47): Magento\Framework\Amqp\Queue->dequeue()
+#1 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(207): Magento\MessageQueue\Model\CheckIsAvailableMessagesInQueue->execute('amqp', 'saveConfig')
+#2 /app/vendor/magento/module-message-queue/Model/Cron/ConsumersRunner.php(125): Magento\MessageQueue\Model\Cron\ConsumersRunner->canBeRun(Object(Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem), Array)
+#3 [internal function]: Magento\MessageQueue\Model\Cron\ConsumersRunner->run(Object(Magento\Cron\Model\Schedule))
+#4 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(381): call_user_func_array(Array, Array)
+#5 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(904): Magento\Cron\Observer\ProcessCronQueueObserver->_runJob(1749390000, 1749390002, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#6 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(865): Magento\Cron\Observer\ProcessCronQueueObserver->tryRunJob(1749390000, 1749390002, Array, Object(Magento\Cron\Model\Schedule), 'consumers')
+#7 /app/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(297): Magento\Cron\Observer\ProcessCronQueueObserver->processPendingJobs('consumers', Array, 1749390002)
+#8 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Cron\Observer\ProcessCronQueueObserver->execute(Object(Magento\Framework\Event\Observer))
+#9 /app/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\Cron\Observer\ProcessCronQueueObserver), Object(Magento\Framework\Event\Observer))
+#10 /app/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#11 /app/generated/code/Magento/Framework/Event/Manager/Proxy.php(105): Magento\Framework\Event\Manager->dispatch('default', Array)
+#12 /app/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch('default')
+#13 /app/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#14 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#15 /app/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#16 /app/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#17 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#18 /app/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#19 /app/vendor/magento/module-cron/Console/Command/CronCommand.php(140): Magento\Framework\App\Cron\Interceptor->launch()
+#20 /app/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /app/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /app/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#23 /app/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /app/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#25 /app/vendor/symfony/console/Application.php(1078): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#26 /app/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#27 /app/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#28 /app/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#29 /app/bin/magento(23): Symfony\Component\Console\Application->run()
+#30 {main} [] []
+[2025-06-08T13:40:02.326135+00:00] main.INFO: Cron Job submit_payment_services_order_production_feed is run [] []
+[2025-06-08T13:40:02.327075+00:00] main.INFO: Cron Job submit_payment_services_order_production_feed is successfully finished. Statistics: {"sum":0.001011848449707,"count":1,"realmem":0,"emalloc":109072,"realmem_start":88604672,"emalloc_start":84928688} [] []
+[2025-06-08T13:40:02.336271+00:00] main.INFO: Cron Job submit_payment_services_order_sandbox_feed is run [] []
+[2025-06-08T13:40:02.336401+00:00] main.INFO: Cron Job submit_payment_services_order_sandbox_feed is successfully finished. Statistics: {"sum":0.00012898445129395,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85038536} [] []
+[2025-06-08T13:40:02.343677+00:00] main.INFO: Cron Job indexer_update_all_views is successfully finished. Statistics: {"sum":0.065192937850952,"count":1,"realmem":4194304,"emalloc":6608112,"realmem_start":90701824,"emalloc_start":86140456} [] []
+[2025-06-08T13:40:02.346207+00:00] main.INFO: Cron Job submit_payment_services_order_status_production_feed is run [] []
+[2025-06-08T13:40:02.346341+00:00] main.INFO: Cron Job submit_payment_services_order_status_production_feed is successfully finished. Statistics: {"sum":0.0001521110534668,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85040048} [] []
+[2025-06-08T13:40:02.357879+00:00] main.INFO: Cron Job submit_payment_services_order_status_sandbox_feed is run [] []
+[2025-06-08T13:40:02.358012+00:00] main.INFO: Cron Job submit_payment_services_order_status_sandbox_feed is successfully finished. Statistics: {"sum":0.00013208389282227,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85041448} [] []
+[2025-06-08T13:40:02.367209+00:00] main.INFO: Cron Job submit_payment_services_store_production_feed is run [] []
+[2025-06-08T13:40:02.367392+00:00] main.INFO: Cron Job submit_payment_services_store_production_feed is successfully finished. Statistics: {"sum":0.00018215179443359,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85042960} [] []
+[2025-06-08T13:40:02.376314+00:00] main.INFO: Cron Job submit_payment_services_store_sandbox_feed is run [] []
+[2025-06-08T13:40:02.376438+00:00] main.INFO: Cron Job submit_payment_services_store_sandbox_feed is successfully finished. Statistics: {"sum":0.0001218318939209,"count":1,"realmem":0,"emalloc":1072,"realmem_start":88604672,"emalloc_start":85044360} [] []
+[2025-06-08T13:40:02.387950+00:00] main.INFO: Cron Job sync_order_payment_status is run [] []
+[2025-06-08T13:40:02.388091+00:00] main.INFO: Cron Job sync_order_payment_status is successfully finished. Statistics: {"sum":0.0002129077911377,"count":1,"realmem":0,"emalloc":73016,"realmem_start":90701824,"emalloc_start":86182440} [] []

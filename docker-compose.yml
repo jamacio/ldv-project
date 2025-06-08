@@ -180,22 +180,22 @@ services:
       magento:
         aliases:
           - deploy.magento2.docker
-  # cron:
-  #   hostname: cron.magento2.docker
-  #   image: "magento/magento-cloud-docker-php:8.3-cli-1.4.0"
-  #   extends: generic
-  #   command: run-cron
-  #   environment:
-  #     CRONTAB: "* * * * * root cd /app && /usr/local/bin/php bin/magento cron:run >> /app/var/log/cron.log"
-  #   volumes:
-  #     - "./magento:/app:delegated"
-  #   networks:
-  #     magento:
-  #       aliases:
-  #         - cron.magento2.docker
-  #   depends_on:
-  #     db:
-  #       condition: service_healthy
+  cron:
+    hostname: cron.magento2.docker
+    image: "magento/magento-cloud-docker-php:8.3-cli-1.4.0"
+    extends: generic
+    command: run-cron
+    environment:
+      CRONTAB: "* * * * * root cd /app && /usr/local/bin/php bin/magento cron:run >> /app/var/log/cron.log"
+    volumes:
+      - "./magento:/app:delegated"
+    networks:
+      magento:
+        aliases:
+          - cron.magento2.docker
+    depends_on:
+      db:
+        condition: service_healthy
   # fpm_xdebug:
   #   hostname: fpm_xdebug.magento2.docker
   #   image: "magento/magento-cloud-docker-php:8.3-fpm-1.4.0"

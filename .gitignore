@@ -83,3 +83,5 @@ atlassian*
 !/generated/.htaccess
 .DS_Store%
 magento/pub/*
+magento/vendor/*
+magento/generated/*

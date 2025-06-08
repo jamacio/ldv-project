@@ -126,26 +126,4 @@ interface OrderExtensionInterface extends \Magento\Framework\Api\ExtensionAttrib
      * @return $this
      */
     public function setAdditionalItemizedTaxes($additionalItemizedTaxes);
-
-    /**
-     * @return float|null
-     */
-    public function getPagbankInterestAmount();
-
-    /**
-     * @param float $pagbankInterestAmount
-     * @return $this
-     */
-    public function setPagbankInterestAmount($pagbankInterestAmount);
-
-    /**
-     * @return float|null
-     */
-    public function getBasePagbankInterestAmount();
-
-    /**
-     * @param float $basePagbankInterestAmount
-     * @return $this
-     */
-    public function setBasePagbankInterestAmount($basePagbankInterestAmount);
 }
