@@ -129,8 +129,8 @@ return [
                 'secure' => [
                     'base_url' => 'https://ldvdigital.com.br/',
                     'base_media_url' => 'https://ldvdigital.com.br/media/',
-                    'use_in_frontend' => '0',
-                    'use_in_adminhtml' => '0'
+                    'use_in_frontend' => '1',
+                    'use_in_adminhtml' => '1'
                 ],
                 'cookie' => [
                     'cookie_domain' => 'ldvdigital.com.br'
