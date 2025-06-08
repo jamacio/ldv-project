@@ -127,8 +127,8 @@ return [
                     'base_media_url' => 'http://ldvdigital.com.br/media/'
                 ],
                 'secure' => [
-                    'base_url' => 'https://ldvdigital.com.br/',
-                    'base_media_url' => 'https://ldvdigital.com.br/media/',
+                    'base_url' => 'http://ldvdigital.com.br/',
+                    'base_media_url' => 'http://ldvdigital.com.br/media/',
                     'use_in_frontend' => '1',
                     'use_in_adminhtml' => '1'
                 ],
