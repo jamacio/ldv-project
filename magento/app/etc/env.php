@@ -97,7 +97,7 @@ return [
         'vertex' => 1
     ],
     'downloadable_domains' => [
-        'localhost',
+        'ldvdigital.com.br',
     ],
     'install' => [
         'date' => 'Wed, 03 Feb 2021 14:37:01 +0000'
@@ -123,17 +123,17 @@ return [
                     'cors_allow_credentials' => 1
                 ],
                 'unsecure' => [
-                    'base_url' => 'http://localhost/',
-                    'base_media_url' => 'http://localhost/media/'
+                    'base_url' => 'http://ldvdigital.com.br/',
+                    'base_media_url' => 'http://ldvdigital.com.br/media/'
                 ],
                 'secure' => [
-                    'base_url' => 'https://localhost/',
-                    'base_media_url' => 'https://localhost/media/',
+                    'base_url' => 'https://ldvdigital.com.br/',
+                    'base_media_url' => 'https://ldvdigital.com.br/media/',
                     'use_in_frontend' => '1',
                     'use_in_adminhtml' => '1'
                 ],
                 'cookie' => [
-                    'cookie_domain' => 'localhost'
+                    'cookie_domain' => 'ldvdigital.com.br'
                 ]
             ],
             'catalog' => [
@@ -149,7 +149,7 @@ return [
         ]
     ],
     'http_cache_hosts' => [
-        'host' => 'localhost',
+        'host' => 'ldvdigital.com.br',
         'port' => '80'
     ],
     'cron_consumers_runner' => [
