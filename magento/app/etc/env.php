@@ -130,8 +130,7 @@ return [
                     'base_url' => 'https://localhost/',
                     'base_media_url' => 'https://localhost/media/',
                     'use_in_frontend' => '1',
-                    'use_in_adminhtml' => '1',
-                    'base_url_frontend' => 'http://localhost:3000'
+                    'use_in_adminhtml' => '1'
                 ],
                 'cookie' => [
                     'cookie_domain' => 'localhost'

@@ -719,3 +719,8 @@
 [2025-06-06T21:58:34.362221+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
 [2025-06-06T21:58:34.362923+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
 [2025-06-06T21:58:39.935090+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-06T22:59:23.018629+00:00] main.ERROR: The configuration file has changed. Run the "app:config:import" or the "setup:upgrade" command to synchronize the configuration. [] []
+[2025-06-06T22:59:23.347266+00:00] main.ERROR: The configuration file has changed. Run the "app:config:import" or the "setup:upgrade" command to synchronize the configuration. [] []
+[2025-06-06T23:02:41.343222+00:00] main.ERROR: The configuration file has changed. Run the "app:config:import" or the "setup:upgrade" command to synchronize the configuration. [] []
+[2025-06-06T23:02:46.106893+00:00] main.ERROR: The configuration file has changed. Run the "app:config:import" or the "setup:upgrade" command to synchronize the configuration. [] []
+[2025-06-06T23:02:46.442683+00:00] main.ERROR: The configuration file has changed. Run the "app:config:import" or the "setup:upgrade" command to synchronize the configuration. [] []
